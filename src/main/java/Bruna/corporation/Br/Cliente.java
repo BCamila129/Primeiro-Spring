@@ -1,10 +1,13 @@
 package Bruna.corporation.Br;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Cliente {
-
+    
+        @Id
+        private Long id;
         private String nome;
         private String cpf;
 
